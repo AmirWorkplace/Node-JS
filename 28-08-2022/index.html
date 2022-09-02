@@ -1,0 +1,43 @@
+<!-- একটা কনভারর্টার প্রোজেক্ট!
+অর্থ্যাত আপনাকে একটা প্রোগ্রাম বানাতে হবে যেখানে আপনি কিছু অপশন রাখবেন (like : years, Month, Weeks, Days, hours & Minuite), একটা ইনপুট বক্স থাকবে যেখানে আপনি প্রয়োজম অনুযায়ি অপশন সিলেক্ট করে ইনপুটে ভ্যালু দিয়ে জেনারেট বাটনে ক্লিক করলে আপনার ভ্যালু কে অপশন অনুযায়ি একটা ভ্যালু শুধু সেকেন্ড রিটার্ন করবে!  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Converter</title>
+</head>
+<body>
+  <div class="select_pot">
+    <select name="select" id="select">
+      <option value="Years">Years</option>
+      <option value="Months">Months</option>
+      <option value="Weeks">Weeks</option>
+      <option value="Days">Days</option>
+      <option value="Hous">Hous</option>
+      <option value="Minuites">Minuites</option>
+    </select>
+    <div class="vs">To</div>
+    <select name="select" id="select">
+      <option value="Years">Years</option>
+      <option value="Months">Months</option>
+      <option value="Weeks">Weeks</option>
+      <option value="Days">Days</option>
+      <option value="Hous">Hous</option>
+      <option value="Minuites">Minuites</option>
+    </select>
+  </div>
+  <div class="input-sec">
+    <label for="number">Please Input Your Value: </label>
+    <br>
+    <input type="number" class="inp" placeholder="Text Numbers Only:">
+    <div class="generate-btne">
+      <button class="gen_btn">Generate</button>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
