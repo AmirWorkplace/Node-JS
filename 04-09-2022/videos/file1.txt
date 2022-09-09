@@ -1,0 +1,2 @@
+Now, I create many files using Node.js ! I'm  Trying to makes some files using Vanila JavaScript, but I'm FAILED! 
+ The file number is 1 !

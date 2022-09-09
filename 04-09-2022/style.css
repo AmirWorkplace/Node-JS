@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
-  background: #111711;
-  color: #fff;
   width: 100%;
   height: 100vh;
+  color: #ffffff;
+  background: #111711;
 }

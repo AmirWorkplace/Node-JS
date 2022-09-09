@@ -1,0 +1,26 @@
+/*
+console.log("\n");
+function starsArray(amount) {
+  const starArray = [];
+  var fi,
+    ix = "*";
+  for (fi = 0; fi < amount; fi++) {
+    starArray.push(ix);
+    console.log(starArray);
+    // return starArray;
+  }
+}
+starsArray(10);
+*/
+/*
+const CalcAverage = (numberArray) => {
+  var i,
+    sum = 0;
+  for (i = 0; i <= numberArray.length - 1; i++) {
+    sum += numberArray[i];
+    return `The Sum is : ${sum} !`;
+  }
+};
+console.log(CalcAverage([120, 200, 325, 100]));
+console.log("\n");
+*/
